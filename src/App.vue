@@ -52,11 +52,11 @@ export default {
 
     const vidContract = new window.web3.eth.Contract(
       contractAbi,
-      "0xb6825a020402f0ec2649d05aa22e65f9ec3198bb"
+      "0x6241e4206c28732dc7a21a83ca55d63cfa01d950"
     );
     const toreContract = new window.web3.eth.Contract(
       tokenAbi,
-      "0x4474859f28a3ec265e2791b98a61f2bf9e0be295"
+      "0xDDd4B9F27430FbEca4E4BCFC2859486714868473"
     );
 
     var useraddr = await window.web3.eth.getAccounts();
