@@ -16,14 +16,14 @@
           <a
             class="button is-primary"
             target="_blank"
-            href="https://info.uniswap.org/token/0x4474859f28a3ec265e2791b98a61f2bf9e0be295"
+            href="https://info.uniswap.org/token/0xDDd4B9F27430FbEca4E4BCFC2859486714868473"
           >
             <strong>UNISWAP</strong>
           </a>
           <a
             class="button is-light"
             target="_blank"
-            href="https://etherscan.io/token/0x4474859f28a3ec265e2791b98a61f2bf9e0be295"
+            href="https://etherscan.io/token/0xDDd4B9F27430FbEca4E4BCFC2859486714868473"
           >
             ETHERSCAN
           </a>
