@@ -41,7 +41,7 @@ export default {
       url: "https://api.thegraph.com/subgraphs/name/uniswap/uniswap-v2",
       method: "post",
       data: {
-        query: `{ tokenDayDatas( last: 15 where: { token: "0x4474859f28a3ec265e2791b98a61f2bf9e0be295" }) { id priceUSD } }`,
+        query: `{ tokenDayDatas( last: 15 where: { token: "0xDDd4B9F27430FbEca4E4BCFC2859486714868473" }) { id priceUSD } }`,
       },
     }).then((result) => {
       var datax = result.data.data.tokenDayDatas;
