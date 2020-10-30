@@ -12,12 +12,10 @@
             <div class="column is-offset-1">
               <trend
                 :data="arr"
-                :gradientDirection="top"
                 :gradient="['#6fa8dc', '#42b983', '#2c3e50']"
                 :padding="8"
                 :radius="8"
                 :stroke-width="2"
-                :stroke-linecap="butt"
                 auto-draw
                 smooth
               >

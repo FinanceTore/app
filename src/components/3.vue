@@ -11,7 +11,7 @@
             </div>
 
             <div class="column box is-offset-1">
-              <b-table :data="data" :columns="columns" :hoverable="true">
+              <b-table :data="data" :hoverable="true">
                 <b-table-column field="address" label="Address" v-slot="props">
                   {{ props.row.address }}
                 </b-table-column>
